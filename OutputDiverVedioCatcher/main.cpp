@@ -71,7 +71,7 @@ Exit:
 		g_log.close();
 	}
 
-	split_PCM("echo_speaker-48000Hz_32b_2c.pcm", DEFAULT_CHANNELS, DEFAULT_BITS_PER_SAMPLE, DEFAULT_SAMPLE_RATE);
+	split_PCM("echo_speaker-48000Hz_32b_2c.pcm");
 
 	return 0;
 }

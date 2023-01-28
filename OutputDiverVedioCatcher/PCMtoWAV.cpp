@@ -12,7 +12,7 @@ void split_PCM(const char* PCMFlieName)
 	wav_format format;
 	wav_data data_;
 	
-	char* cpyFileName;
+	char* cpyFileName = (char*)malloc(1000);
 	char* WAVFileName;
 
 	strncpy(cpyFileName, PCMFlieName, strlen(PCMFlieName));
